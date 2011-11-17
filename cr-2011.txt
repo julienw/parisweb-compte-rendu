@@ -1,0 +1,634 @@
+Accessibilité: soyons agiles
+====
+Elie Sloïm et Laurent Denis (Témésis)
+----
+
+Dans cette présentation, on va suivre un projet web sur ses différentes étapes. On fait une refonte donc les différentes étapes sont :
+
+1. audit de l'existant
+2. une question: quel niveau d'accessibilité ?
+3. l'intégration
+4. estimer la charge
+5. constats
+
+### 1 - audit de l'existant
+
+En fait, faire un audit n'est pas une bonne idée. Les conférenciers nous mettent en garde contre des audits lourds (avec plusieurs centaines de pages). EN effet, un audit, c'est un constat d'échec. C'est vu par le client comme un véritable mur à escalader pour corriger tous les défauts.
+
+Ce n'est donc pas une bonne méthode.
+
+Néanmoins, comme nous le verrons plus tard, un audit total doit servi en fin de projet comme constat de succès, de validation de l'accessibilité.
+
+### 2 - question: quel niveau d'accessibilité ?
+Les conférenciers nous enseignent que les niveaux d'accessiblité ne doivent pas être les objectifs d'un projet.
+
+Pour rappel, 3 niveaux d'accessibilité sont généralement définis: A, AA, AAA (qu'on appelle de vive voix: simple A, double A, triple A). On trouve aussi les dénominations Bronze, Argent, Or, qui ne recouvrent pas exactement les mêmes règles, mais c'est le même principe.
+
+En pratique, le niveau triple A est un idéal, et un rêve. Au contraire, le niveau simple A ne garantit pas une bonne accessibilité. Le seul niveau utilisable en pratique est donc le niveau double A.
+
+Cependant, il ne faut pas viser un niveau particulier. Il faut le choisir adapté au contexte, et surtout, il faut tâcher de tendre vers ce niveau, il ne doit pas être un objectif en soi. Il faut s'en servir comme point de repère pour s'en approcher par amélioration continue.
+
+### 3 - l'intégration
+
+L'idée à retenir pour l'intégration, c'est qu'il faut travailler en amont. Il faut tâcher de prévenir les risques au lieu de les gérer une fois qu'il sont avérés.
+
+Comment ? En montant en compétrnces les équipes, à petit pas, doucement. On peut avoir _un peu_ de formalisme (mais pas trop), par exemple envoyer un mail qui expliquerait les points importants concernant l'accessibilité (mais pas tout tout de suite !): utiliser des titres, des listes, des alt sur les images, etc.
+ 
+### 4 - estimer la charge
+Il éviter les tâches de type "gros bloc". En utiisant des micro-tâches, on arrive à mieux répartir la charge. Évidemment, on peut (il faut !) aussi mutualiser des choses si on a un parc de sites.
+
+Rappelons-nous tout de même qu'un site web, c'est avant tout du contenu (ou des fonctions pour une application). C'est pas de l'accessibilité. C'est donc une erreur que de repousser la sortie d'un site ou d'une appli web à cause de l'accessibilité.
+
+Il faut découpler les plannings de la vie du site. La sortie d'un site n'est qu'un jalon parmi d'autres.
+
+### 5 - constat de succès
+La mise en production n'est pas la fin, il ne faut pas s'arrêter là. Il faut faire de l'amélioration continue.
+
+### récapitulatif
+
+* prévention des risques
+* juste formalisme
+* interventions en amont
+* formation au fil de l'eau
+* adaptation au contexte
+* décisions factuelles: contenus et services doivent passer avant l'accessibilté
+* les contenus d'abord !
+* L'amélioration continue fonctionne aussi pour les personnes :-)
+
+Enfin, n'oublions pas que dans un projet, c'est la personne qui est dans le projet qui est la mieux placée pour prendre les décisions, c'est lui le vrai expert sur son projet.
+
+
+Les goûts et les couleurs
+======
+David Rault
+-----
+### Introduction
+
+Un constat: 55% des médaillés d'or à Athènes étaient en rouge. Le rouge induit un sentiment de puissance pour celui qui le porte autant qu'un sentiment d'infériorité chez les adversaires.
+
+Des études montrent aussi que les actes d'achat seraient influencés par la couleur pour 85% d'entre eux. Les couleurs induisent tant des réactions physiques que des réactions acquises.
+
+### Qu'est-ce qu'une couleur, physiquement ?
+
+Une couleur est produite par une lumière réfléchie par un objet. Elle a une certaine longueur d'onde.
+
+Les couleurs chaudes correspondent à une longueur d'onde plus longue. Le cerveau a besoin de plus d'énergie pour la comprendre. Elle accélère notre métabolisme: respiration, pression artérielle, rythme cardiaque, etc.
+
+Dans la suite, nous allons passer en revue chaque couleur pour décrire les valeurs qui leur sont attachées. (note de Juju: ce sont des généralités, et il est possible qu'elles ne soient pas vraies dans certains contextes.)
+
+### La couleur rouge
+
+La couleur rouge est la couleur du sang. Elle revêt les significations suivantes: érotisme passion danger excitation force victoire agressivité.
+
+Par exemple, si on demande à un cobaye de goûter 2 cafés à la même température, un dans une tasse rouge, un dans une tasse bleue, celui du rouge semblera plus chaud. Un autre exemple concerne les voitures : une voiture en rouge semblera plus rapide que la même voiture en bleue, qui elle paraîtra plus classe.
+
+La couleur rouge apporte aussi un sentiment d'urgence. C'est utilisé sur les panneaux "Stop" mais aussi pour indiquer des promotions.
+
+### La couleur jaune
+C'est statistiquement la couleur la moins appréciée dans le monde occidental.
+
+C'est aussi la couleur la plus lumineuse du spectre.
+
+Elle véhicule les idées de joie, spontanéité, chaleur.
+
+Elle se voit de loin et est donc utilisée pour des travaux, les vestes réfléchissantes, taxis (dans certains pays), etc.
+
+Contrairement à la croyance populaire, le meilleur contraste n'est pas obtenu en utilisant du noir sur du blanc ou du blanc sur du noir, mais du noir sur du jaune ou du jaune sur du noir. C'est utilisé sur les panneaux autoroutiers de certains pays, et dans les aéroports.
+
+### La couleur orange
+Elle comporte un peu de rouge et un peu de jaune, elle combine donc les qualités de ces deux couleurs: énergie, vitalité, eté, joie, enthousiasme, jeunesse, dynamisme.
+
+Lorsqu'on la désature, elle amène aussi une certaine classe.
+
+C'est une couleur qui a été très utilisée dans lesa nnées 60, on l'utilise donc aujourd'hui pour évoquer ces années.
+
+### La couleur bleue
+C'est la couleur la plus appréciée dans le monde occidental, surtout par les hommes. Elle apporte les valeurs de paix, de calme, de sérieux, de fiabilité, de rassemblement, d'autorité, de consensus.
+
+On retrouve par exemple l'idée du rassemblement dans le drapeau européen, et celle d'autorité dans la police.
+
+### La couleur verte
+C'est la couleur du bio et de l'écologie. Elle amène les idées de vie, croissance, calme, générosité, stabilité, confiance, chance, sécurité.
+
+On retrouve l'idée de confiance dans des sites de banque. L'idée de chance est utilisée sur les tables de poker.
+
+### Le marron
+Les idées véhiculées sont: la terre, le bois, la nature, le foyer, l'authentique, la chaleur, elle a un côté rassurant, intemporel, simple, serein, sincère, durable, fiable, rustique, et même un côté bio, naturel à l'ancienne.
+
+### Le rose
+Sans surprise, cette couleur apporte un côté féminin, maternel, sensible, romantique.
+
+Avec un peu plus de rouge, on est plus tapageur, voire vulgaire.
+
+### Le violet
+C'est statistiquement la couleur préférée des femmes.
+
+C'est historiquement une couleur difficile à produire, c'est de là que viennent les idées de noblesse, de richesse, de luxe, de pouvoir.
+
+### Le gris
+Cette couleur apporte les idées suivantes: neutralité détachement autoritaire conventionnel pouvoir richesse technologie science innovation vitesse.
+
+### Le noir
+Elle apporte plusieurs champs de sémantique.
+
+Tout d'abord, on a des idées de mystère, de mort. Puis on a aussi les idées de luxe et de pouvoir. Enfin, on retrouve les notions de respect, de contrainte, qui sont finalement liées aux deux premières.
+
+### La couleur blanche
+Cette couleur apporte les idées de: pureté, innocence, changement, propreté, sincérité.
+
+Elle a aussi un côté luxe et classe lorsqu'on en laisse beaucoup.
+
+### Sur le choix des couleurs
+Il faut choisir 3 ou 4 couleurs maximum sur une même composition:
+
+1. la couleur de base: celle du logo ou complémentaire du logo
+2. les nuances
+3. la couleur complémentaire
+
+### Quelques exemples
+Marlboro a choisi le rouge et le noir, tout comme Budweiser. Ces couleurs montrent que ce sont des marques "d'hommes, des vrais".
+
+MacDonalds étaient auparavant en rouge, ils sont maintenant en blanc et vert, ce qui traduit leur changement d'image.
+
+Starbucks est blanc et vert.
+
+Microsoft est bleu et orange: bleu pour le principal, orange pour les informations à mettre en avant, pour faire ressortir.
+
+Apple veut donner une image d'élitisme, elle utilise donc du blanc et du gris.
+
+### Des outils
+Colordoctor, chez fujitsu, simule les problèmes de vision
+
+Vischeck fait la meme chose.
+
+Des outils existent pour choisir des couleurs: kuler chez Adobe, MyPantone sur iPad, agave sous Linux.
+
+
+
+Tester l'ergonomie de son site à vil prix
+====
+Maurice Svay
+----
+
+### Qu'est-ce que des tests d'utilisabilité ?
+Le principe: on va regarder les gens utiliser le site.
+
+Généralement, ça se fait dans un laboratoire de tests utilisateurs, ça coute cher. Le plus important, c'est d'abord de trouver les problèmes d'utilisabilité. On va donc essayer de faire les tests autrement.
+
+### Pourquoi le faire moins cher
+Plusieurs raisons possibles:
+- pas de budget
+- plus facile de convaincre d'en faire, voire de se passer de l'accord
+- en faire plus fréquemment
+- une approche moins couteuse, ça fait moins peur aux décideurs
+
+### Première méthode: les faire soi-même
+On a besoin de :
+* un utilisateur
+* un observateur
+* un lieu
+* pouvoir filmer
+* un scénario des tâches à réaliser
+
+
+#### comment trouver un utilisateur ?
+Il faut se débrouiller :
+- la famille
+  + attention: ils peuvent être tentés de faire plaisir
+- les collègues
+  + attention aux intérêts d'influencer le projet
+- les étudiants
+  + souvent d'accord pour gagner un peu de sous
+  + ils savent utiliser les nouvelles technos
+  + on peut aller voir les professeurs dans les écoles
+- et même les utilisateurs, les vrais
+
+
+#### Rôles de l'observateur
+Il doit permettre à l'utilisateur de suivre un scénario. Pour cela, il a des missions :
+- répondre aux questions
+- inciter l'utilisatur à penser à haute voix
+
+Ça peut être nous, mais attention, ça demande un peu de pratique pour rester neutre. On doit se présenter comme un observateur, et pas comme un membre de l'équipe.
+
+#### Trouver un lieu
+Ça ne devrait pas poser de problème: une salle de réunion, etc.
+
+#### Enregistrer le test
+Des logiciels existent :
+* sur PC: [camstudio](http://camstudio.org/) est un logiciel open source qui sait aussi enregistrer le micro
+* sur Mac: [Silverback](http://silverbackapp.com/) coute 70$, ou Quicktime qui vient avec l'OS
+* sur Linux, [recordMyDesktop](http://recordmydesktop.sourceforge.net/) remplit bien son rôle également
+
+#### À faire avant la session
+* préparer le matériel
+* installer les logiciels
+* imprimer des documents, genre accord de participation, confidentialité, etc
+
+#### En début de session
+* accueillir l'utilisateur
+* se présenter en tant qu'observateur indépéndant (pas en tant que personne impliquée dans le projet)
+* donner la compensation au testeur: c'est vraiment à faire avant le test, car ainsi ils ne cherchent pas à faire plaisir pendant le test pour mériter la compensation
+* mettre en confiance l'utilisateur: on ne veut pas tester l'utilisateur, on veut tester le site
+* faire signer les docs
+* réinitialiser le test, notamment l'historique du navigateur: liens visités, autocomplétion...
+* discuter avec l'utilisateur, et essayer de personnaliser le test, c'est-à-dire réussir à ce que le test puisse correspondre à des usages qu'il pourrait vraiment avoir.
+
+#### Pendant la session
+On débute par un test de repérage avec des questions faciles: quel est le type de ce site, qu'est-ce qu'on peut faire avec ce site...
+
+Puis on continue avec les vraies tâches : on donne un contexte, et on donne un objectif.
+Par exemple: "vous allez voir votre famille à Lyon, vous devez acheter des billets de train." On lui dit pas s'il réussit, on donne pas d'indices.
+
+On essaie de limiter la session à 20 minutes. On répond ensute aux questions qu'il a pu avoir pendant la session. Enfin, on le remercie puis on passe au cobaye suivant.
+
+#### En fin de session
+Il faut tout de suite prendre des notes tant que c'est frais.
+
+On analyse seul ou à plusieurs.
+
+#### Coût final de cette méthode
+40€, soit le coût de l'utilisateur.
+
+### Seconde méthode: test guérilla
+On choisit un lieu où il y a du wifi (genre starbucks). Il faut être sympa avec les utilisateurs, essayer de cibler les gens qui font pas grand chose, avec une accroche du type "si vous pouvez m'aider avec mon site", etc.
+
+Dans un café, il y a pas mal d'utilisateurs différents, c'est intéressant. On va utiliser un scénario simplifié, pour faire une session plus courte, de l'ordre de 10 à 15 minutes.
+
+Le coût final est 10€.
+
+### Troisième méthode: les tests à distance
+Des services existent déjà; par ailleurs, ils ont déjà des panels d'utilisateur.
+
+Le lieu est tout choisi: l'utilisateur est chez lui, dans un environnement potentiellement convivial. Les configurations sont forcément hétérogènes, ce qui est soit un avantage, soit un inconvénient, selon les tests à réaliser.
+
+Quelques exemples:
+* [usertesting.com](http://usertesting.com] et [trymyui.com](http://trymyui.com), avec des utilisateurs anglophones
+* en France, on a [appili.com](http://appili.com). Les utilisateurs semblent moins impliqués, moins réactifs
+* possibilité un peu différente: [testapic.com](http://testapic.com): ce ne semble pas vraiment être un test utilisateur, plutôt un test marketing
+* [youeye.com](http://youeye.com) permettrait de réaliser une carte de chaleur du site analsé; ce n'est pas encore disponible mais ça semble intéressant.
+
+Le coût pour chacun de ces services est d'environ 30€ par test.
+
+### En conclusion
+Les méthodes exposées ici permettent de faire des tests à bas prix. Si on a le budget, c'est toujours mieux de demander à des pros, mais le plus important, c'est de faire des tests !
+
+### Des questions
+* Comment rétribuer, de manière comptable: on peut utiliser par exemple des bons d'achat, des cadeaux.
+* Une remarque: il faut essayer d'avoir des utilisateurs différents à chaque fois.
+* combien de personnes faut-il compter ? Il n'y a pas de règle d'or, on peut compter environ 3, 4 utilisateurs par jour, et finalement, on en fait tant qu'on trouve des problèmes.
+
+
+neurosciences au service du design numérique
+Marc Van Rymenant
+
+comportement ?
+un écran génère des mauvais comportements
+comment générer un comportement d'un certain type ?
+
+on veut plus de plaisir à faire des choses
+moins de travail, d'emmerdes
+
+-> fournir le plus de plaisir, avec le moins d'ennuis
+
+un exemple: avec les meilleurs intervenants, nespresso a lancé un site avec un ROI négatif. Pourquoi ?
+avec les techniques de neuroscience, on a vraiment amélioré ça
+
+les gens n'agissent pas comme ils pensent, ou comme on pense qu'ils pensent.
+
+devant un écran, 5% de l'activité du cerveau est conscient, le reste est non conscient
+avec un simple stimuli, beaucoup d'activités sont stimulées dans le cerveau
+
+ex de la feuille des nombres
+
+eyetracking : non pas regarder le parcours mais pourquoi le parcours
+le parcours des yeux est différent en fonction du but recherché
+
+
+découverte de l'écran avec la partie animale du cerveau
+le thalamus
+en gros il voit flou l'écran et essaie d'aller chercher ce qui est pertinent avant d'analyser
+
+puis avec le putamen
+siège des plaisirs immédiats
+
+globus pallidus
+une porte s'ouvre vers le cortex pour lui dire ce qui est intéressant
+
+le cortex analyse ensuite réellement le contenu...
+chez Cartier, le design excite la partie animale/émotionnelle mais la partie cortex/analyse a une réponse aversive/négative.
+
+créer une stratégie comportementale
+créer une architecture de l'information
+- générer un comportement "retrieve and discover"
+créer une architecture d'écran
+- essayer de déterminer l'ordre de lecture du site
+- pour pouvoir ensuite analyser les eyetrackings
+objectivité et certitudes
+- scénarios, attnion, zones regardées, analyse des szones, complexité, émotions, engagement, actions, mémorisation, verbalisations
+
+conception classique: design/technique, fantasmes, j'aime/j'aime as, awards/moi aussi je veux ça
+conception orientées comportement: design comportemental, habitudes de la réalité, des tests neurologiques, des résultats
+toute l'orga doit mettre le client au centre
+se focaliser sur la culture de la compagnie
+appliquer les résultats de la recherche des sciences comportementales
+designer sur des faits comportementaux, pas sur des impressions "i like, don't like"
+
+
+comment marche un navigateur
+Anthony Ricaud
+
+4 moteurs principaux: presto (opera), gecko (firefox), trident (ms), webkit (chrome, safari)
+
+on tape une requête :
+- analyse: protocole, domaine
+- requête dns pour trouver l'ip
+- ouverture tcp, requête http
+
+les navigateurs se fichent des standards
+ce qui compte: mode xml, mode quirks, mode standard
+
+on classifie les règles CSS par type de règle pour pouvoir les rechercher très rapidement ensuite
+
+on fait un arbre de rendu
+on calcule le layout (où sont les éléments, quelles sont leurs tailles)
+on fait le painting : historiquement, c'était le processeur qui faisait tout
+maintenant on délègue plus au processeur graphique, en utilisant des techniques de compositing
+
+avec js, c'est surtout le dom qui est lent (même si moins aujourd'hui)
+attention aux reflows intempestifs déclenchés par des accès dom
+nouveaux moteurs: très bien (genre jit) mais il faut pas oublier le dom !
+
+
+tester vos services
+Raphaël Yharrassarry
+
+formule de Nielsen qui détermine le nombre de problèmes trouvés en fonction du nb d'utilisateurs testés
+il trouve que 5 utilisateurs trouvent 85% de problèmes
+
+mais en fait la formule de nielsen est spécifique à chaque site (étude de Jared Spool) donc 5 utilisateurs ne suffisent pas
+
+CUE = Coparative UTilisability Evaluation
+8 études de 1998 à aujourd'hui qui comparent diverses méthodes d'éval
+
+est-ce possible de trouver tous les problèmes d'ergo sur un site ?
+non : plus on teste plus on en trouve mais c'est a priori impossible de trouver tous les problèmes
+
+types des bugs : mineur, sérieux, critique
+les pbs critiques ne sont pas tous trouvés
+
+CUE8 : un même site, une question
+accroche marketing ou réalité : louer en 60 secondes une voiture ? (budget.com)
+toujours mesurer : tps de réalisation des tâches, tx de succès, satisfaction
+exclure les temps des échecs du calcul des moyennes
+
+4 taches définies, 5e tache libre
+déterminer le parcours suivant le résultat attendu
+grille d'évaluation
+
+ex gmail: tache envoyer un mail
+
+la grille d'évaluation peret de synthétiser, confronter entre pls inspecteurs, entre pls versions
+
+
+Immdiate inspiration
+Denis Jacobs
+
+Inspiration vient de la respiration
+
+L'inspiration est parfois difficile à venir donc quelques idées pour réussir à l'avoir
+
+Les idées tournent et tournent et attendent de trouver des portails pour apparaitre
+
+Éliminer les blocages
+- la peur élimine les nouvelles idées, au niveau biochimique, neurologiqe
+- la critique intérieure
+- le syndrome de l'imposteur: en fait, ça arrive quand on est super fort :-)
+- trop de multitâche
+
+les personnes créatives ont moins de filtres, font des associations plus "différentes"
+
+les ondes alpha du cerveau
+c'est ce qui fait les connexions entre des idées différentes
+il faut se mettre dans cet état (méditation): mettre la langue en haut du palais, fermer les yeux, respirer
+
+augmenter le flux électrique du cerveau
+se rappeler sa couleur préférée
+marcher
+l'eau: douche, bain
+écouter de la musique, certains types
+
+le champ des habitudes
+par ex, avoir une "table des distractions" où on fait tous les trucs en plus du boulot (twitter, etc)
+
+l'hypothèse biophile
+"les humains sont intrinsèquement reliés entre eux et à la nature" parce que notre cerveau est prévu pour fonctionner avec la nature, donc c'est utile de regarder au loin qqchose de naturel, renre un arbre, quand on se repose les yeux
+
+regarder le travail des autres: trucs classiques, objets quotidiens, des choses bizarres
+
+faire des choses aide à trouver l'inspiration
+résoudre des problèmes en permanence
+
+se servir de ses erreurs, c'est ce qui nous force à explorer des nouvelles choses
+
+pour réussir de bonnes associations c'est important d'être dansune diversité intellectuelle, collaborer avec d'autes personnes
+
+improviser
+"plusser": chez pixar ils font ce genre de choses, où ils essaient d'ajouter des trucs au contexte
+
+partager
+
+
+
+Peter-Paul Koch
+The mobile browser world
+
+20 browsers
+beaucoup de plate formes
+beaucoup de bugs
+à nouveau excitant, pas comme sur le desktop
+
+la stack: browser, os, device (de samsung galaxy aux téléphones chinois pas chers)
+tout le monde veut posséder toute la stack
+aujourd'hui, ceux qui ont toute la stack: Apple, BlackBerry
+
+Google et MS ont une partie de la stack: browser et OS
+
+Nokia ajuste le device
+avec OS: S40 ou SYmbian et browser SYmbian
+ou OS Windows 7
+un nouvel OS: Meltemi, basé sur Linux, mais on n'en sait pas grand chose
+
+1er pb de android:
+ils se ressemblent tous donc quel est leur différenciateur ?
+android est gratuit mais google dit : "si vous voulez utiliser android, utilisez le comme ça"
+les constructeurs aiment pas trop ça
+
+2e pb de android: google a acheté motorola
+grosse erreur de google
+tous les autres construteurs cherchent un autre OS... donc un nouveau navigateur
+
+possibilités ?
+webOS: le seul autre OS qui est prêt aujourd'hui
+HP veut le vendre au plus offrant
+
+autre option: Meego
+c'était censé être le nouveau système de nokia, ils ont meme sorti un device dessus puis ils l'ont arrêté
+ils ont annoncé tizen à la place mais on n'en sait rien
+
+autre option: Samsung Bada
+le but: un jour on virera Android et on utilisera Bada à la place
+Tout le monde pense que samsung allait utiliser bada, et finalement ils l'ont open sourcé, on comprend pas vraiment pourquoi.
+
+Ok, tout ça est confus, c'est normal, c'est l'état du monde mobile d'aujourd'hui.
+
+Et la dernière option : Boot to Gecko.
+C'est une surcouche à Android, et c'est plutôt intelligent de la part de Mozilla.
+
+le marché est bien compliqué... et c'est compliqué pour les développeurs car chaque système a son navigateur. Et il faut coder pour eux.
+
+
+On oublie partie connexion réseau, avec les opérateurs.
+
+les opérateurs comprennent rien. Ils ont beaucoup d'argent mais ils savent pas quoi en faire, ils comprennent rien sur le sujet.
+
+Le device : dans la plupart des pays occidentaux (sauf Belgique ou Italie par ex), ils sont subventionnés
+c'est un problème pour WIndows Phone 7 par exmple.. parce que Skype est sur WP7 et les opérateurs aiment pas vraiment Skype. Donc WP7 stagne en parts de marché.
+
+Idem pour Nokia; Nokia dit qu'ils allaient arrêter Symbian, donc les opérateurs arrêtent Nokia.
+
+Les opérateurs sont très puissants et les constructeurs dovent être dans les petits papiers des opérateurs pour être dans les agences.
+
+Il y a le navigateur Opera.
+Ils sont assez intelligents, car ils traitent directement avec les opérateurs.
+Opera fait un navigateur pour les devices qui ont un mauvais navigateur, genre symbian.
+
+Le danger: apple et google en tant qu'opérateurs
+Nokia a essayé et les opérateurs se son ligués contre lui et ils ont fait marche arrière.
+Ça ferait sans doute pareil avec Aple.
+
+
+Les navigateurs mobile
+il y en a plein plein
+
+Il y en a plein basé sur Webkit
+mais en fait il n'y a pas qu'un seul Webkit
+Webkit est juste un moteur de rendu
+mais ça suffit pas pour faire un navigateur
+
+par ex tous les webkits n'ont pas d'accélération graphique hardware.
+tout simplement certains devices n'ont juste pas de GPU correct.
+
+de même tous le input doivent être écrit éparément pour chaque navigateur
+et en plus, tout le monde n'utilise pas la même version de webkit
+
+
+les navigateurs de type "proxy"
+ça fait le rendu sur le serveur
+mais il y a des désavantages du genre support javascript
+
+statistiques: 
+Opera SYmbian et vieux devices: 22%
+Safari iOS: 20%
+Android: 17%
+Nokia Symbian S40: 17%
+BlackBerry
+NEtFront
+other
+
+il faut regarder les stats du pays et du client
+
+les médias sociaux créent des visites d'iPhone and Android
+
+et les stats en France ?
+Safari sur iOS phone : 58%
+Android: 28%
+Nokia: 4%
+Opera et Dolfin: 3%
+Blackberry: 2%
+Other: 2%
+
+
+
+Le Kiss des OS (open standards)
+Thierry Stoehr
+
+il y a des formats partout, servez vous en
+la LCEN définit ce qu'est un standard ouvet
+pas de limite d'accès, spec publiques, etc
+
+coût d'entrée, coût de sortie
+avec les standards ouverts, le coût de sortie est sans doute plus faible
+
+les données: texte, multimédia,
+
+
+
+Données ouvertes
+David Larlet
+
+l'open data, c'est :
+en français: donnée publique
+en anglais: donnée peut être professionnelle
+
+l'idée = libérer les données pour les citoyens
+
+certaines villes ont eu l'idée de libérer des données de transport, d'environnement..
+les régions s'y sont intéressées
+puis au niveau national, notamment aux US et en UK, mais aussi peut-être bientôt en France d'ici la fin de l'année.
+
+La ville de Rennes a été motrice en France, puis Paris Montpellier, et récemment la région Aquitaine et la ville Bordeaux.
+
+problématique des formats de données
+souvent ils sont fait en PDF: bof pour la réutilisation
+d'autres sont fait en XLS: bof ausi. ok pour naviguer dans UN fichier, mais pour lier plusieurs données...
+
+OpenData = chacun dans son coin
+LinkedData = acentré + liens
+Web Sémantique = acentré + liens + du sens entre les liens
+
+accder aux données mais en plus jouer avec
+opendata71.fr
+
+les données ont des licences
+ex de clause: une donnée collectée publiquement peut-elle être revendue ?
+
+aller demander au citoyen quelles données il veut
+"government as a service"
+
+ville de montreal permet de jouer avec le budget de la ville
+et même de soumettre notre proposition
+
+
+
+SEO, Web mobile, accessibilité
+Trinité du développement Web inclusif
+Denis Boudreau
+
+accssibilité: un concept difficile à atteindre ?
+
+état des lieux de la démarche accessibilité
+on est sans doute dans une époque favorable, et on peut revoir le plan de bataille
+faire des parallèles avec le SEO et la mobilité
+
+faire de l'accessibilité progressive
+tendre vers un objectif d'inclusion, bout à bout
+
+garder une structure sémantique
+
+
+Gestion d'équipe web
+Rudy Rigot
+
+déception d'expertise
+au début: plein d'experts contents
+à la fin: ah ben finalement c'est pas comme on voulait
+
+ça arrive surtout en période d'imprévu
+
+c'est le rôle du chef de projet de gérer l'imprévu, garder les experts dans le projet, les responsabiliser
+
+le but: valoriser le travail de chaque expert
+
+
+
