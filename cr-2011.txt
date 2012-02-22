@@ -279,120 +279,208 @@ Les méthodes exposées ici permettent de faire des tests à bas prix. Si on a l
 * combien de personnes faut-il compter ? Il n'y a pas de règle d'or, on peut compter environ 3, 4 utilisateurs par jour, et finalement, on en fait tant qu'on trouve des problèmes.
 
 
-neurosciences au service du design numérique
+Les neurosciences au service du design numérique
+=====
 Marc Van Rymenant
+-----
 
-comportement ?
-un écran génère des mauvais comportements
-comment générer un comportement d'un certain type ?
+### Le comportement ?
+Un écran génère des mauvais comportements.
+Comment faire pour générer un comportement d'un certain type ?
 
-on veut plus de plaisir à faire des choses
-moins de travail, d'emmerdes
+C'est un constat: on veut plus de plaisir à faire des choses, et on veut
+moins de travail, moins d'emmerdes. La solution est donc simple: il faut
+fournir le plus de plaisir avec le moins d'ennuis !
 
--> fournir le plus de plaisir, avec le moins d'ennuis
+Un exemple simple: en utilisant les meilleurs intervenants, Nespresso a
+pourtant lancé un site avec un retour sur investissement négatif.
+Comment est-ce possible ? Avec les techniques de neuroscience, on a
+pu améliorer ce paramètre.
 
-un exemple: avec les meilleurs intervenants, nespresso a lancé un site avec un ROI négatif. Pourquoi ?
-avec les techniques de neuroscience, on a vraiment amélioré ça
+### Le comportement est un produit du cerveau
+Les gens n'agissent pas comme ils pensent, ou comme on pense qu'ils pensent.
 
-les gens n'agissent pas comme ils pensent, ou comme on pense qu'ils pensent.
+Devant un écran, 5% de l'activité du cerveau est conscient, le reste est non conscient.
+Avec un simple stimuli, beaucoup d'activités sont stimulées dans le cerveau.
 
-devant un écran, 5% de l'activité du cerveau est conscient, le reste est non conscient
-avec un simple stimuli, beaucoup d'activités sont stimulées dans le cerveau
+(Ici, le conférencier a distribué des feuilles au public. Ces feuilles
+étaient similaires: elles contenaient tous les nombres entre 1 et 79, tous
+placés au même endroit. Cependant, sur la moitié de ces feuilles, 
+une grille était dessinée. Après étude des feuilles, on s'apercevait alors
+que les nombres étaient rangés selon un ordre bien défini, mais cet
+ordre était plus difficile, presque impossible, à découvrir sur la feuille sans grille.
+À noter que dans les deux cas, on ne s'apercevait tout de même pas
+de l'ordre caché au départ.
 
-ex de la feuille des nombres
+Le conférencier nous a alors demandé de chercher les nombres dans l'ordre
+séquentiel, pendant une minute, et nous a demandé à quel nombre nous
+nous étions arrêté à l'issue du temps. On s'est aperçu que les participants
+avec la version avec grille étaient allés bien plus vite. Inconsciemment,
+le cerveau s'était servi de la grille pour chercher plus facilement.)
 
-eyetracking : non pas regarder le parcours mais pourquoi le parcours
-le parcours des yeux est différent en fonction du but recherché
+L'eyetracking est aussi un outil utile: il permet de retracer le
+parcours des yeux. Mais attention, il ne faut pas regarder le parcours
+lui-même mais aller plus loin et chercher pourquoi ce parcours a été
+utilisé. On s'aperçoit que pour un même site, le parcours des yeux est
+différent en fonction du but recherché.
 
+### Parcours d'un site avec son cerveau
+On découvre l'écran avec la partie animale du cerveau, le thalamus.
+En gros il voit flou l'écran et essaie d'aller chercher ce qui est pertinent
+avant d'analyser plus loin.
 
-découverte de l'écran avec la partie animale du cerveau
-le thalamus
-en gros il voit flou l'écran et essaie d'aller chercher ce qui est pertinent avant d'analyser
+Ensuite, le cerveau utilise le putamen, siège des plaisirs immédiats.
 
-puis avec le putamen
-siège des plaisirs immédiats
+Puis, c'est le globus pallidus qui est utilisé: une porte s'ouvre vers
+le cortex pour lui dire ce qui est intéressant.
 
-globus pallidus
-une porte s'ouvre vers le cortex pour lui dire ce qui est intéressant
+Le cortex analyse ensuite réellement le contenu.
 
-le cortex analyse ensuite réellement le contenu...
-chez Cartier, le design excite la partie animale/émotionnelle mais la partie cortex/analyse a une réponse aversive/négative.
+On prend alors un exemple du site web Cartier, où le design excite la
+partie animale/émotionnelle mais la partie cortex/analyse a une réponse
+aversive/négative, ce qui est très déceptif globalement.
 
-créer une stratégie comportementale
-créer une architecture de l'information
-- générer un comportement "retrieve and discover"
-créer une architecture d'écran
-- essayer de déterminer l'ordre de lecture du site
-- pour pouvoir ensuite analyser les eyetrackings
-objectivité et certitudes
-- scénarios, attnion, zones regardées, analyse des szones, complexité, émotions, engagement, actions, mémorisation, verbalisations
+### Une stratégie du comportement 
+Il faut créer une stratégie comportementale, créer une architecture de
+l'information, pour essayer de générer un comportement "retrieve
+and discover" (récupération et découverte).
 
-conception classique: design/technique, fantasmes, j'aime/j'aime as, awards/moi aussi je veux ça
-conception orientées comportement: design comportemental, habitudes de la réalité, des tests neurologiques, des résultats
-toute l'orga doit mettre le client au centre
-se focaliser sur la culture de la compagnie
-appliquer les résultats de la recherche des sciences comportementales
-designer sur des faits comportementaux, pas sur des impressions "i like, don't like"
+Il faut ensuite créer une architecture d'écran, essayer de déterminer
+l'ordre de lecture du site pour pouvoir ensuite analyser les eyetrackings
+avec objectivité et des certitudes: préparer les scénarios, voir ou se
+porte l'attention, quelles sont les zones regardées, analyse des zones,
+complexité, émotions, engagement, actions, mémorisation, verbalisations.
 
+La conception classique oppose le design et la technique, utilise les
+fantasmes, décide par un "j'aime ou j'aime pas". Au contraire,
+la conception orientée comportement va utiliser le design comportemental,
+les habitudes de la réalité, des tests neurologiques, et des résultats.
+Toute l'organisation doit mettre le client au centre, se focaliser sur
+la culture de la compagnie.
 
-comment marche un navigateur
+### Les sciences comportementales au service du design
+En conclusion, appliquons les résultats de la recherche des sciences
+comportementales, et designons sur des faits comportementaux, pas sur
+des impressions du type "j'aime, j'aime pas".
+
+### Pour en savoir plus
+On peut consulter le
+[blog Simplifying Interfaces](http://www.simplifyinginterfaces.com) de
+Marc Van Rymenant, qui regorge d'articles sur le sujet issus des cas
+qu'ils ont traités.
+
+Comment marche un navigateur
+======
 Anthony Ricaud
+-----
+En gros, sur le web, on a 4 moteurs principaux: Presto (chez Opera), Gecko (chez Firefox), Trident (chez Microsoft), et WebKit (chez Chrome et Safari).
 
-4 moteurs principaux: presto (opera), gecko (firefox), trident (ms), webkit (chrome, safari)
+### La requête HTTP
+Lorsqu'on tape une requête, il se passe d'abord :
 
-on tape une requête :
-- analyse: protocole, domaine
-- requête dns pour trouver l'ip
-- ouverture tcp, requête http
+* une analyse: le navigateur récupère le protocole, le domaine
+* il réalise une requête DNS pour retrouver l'IP
+* il ouvre une connexion TCP/IP et réalise une requête HTTP
+* il récupère alors la page voulue.
 
-les navigateurs se fichent des standards
-ce qui compte: mode xml, mode quirks, mode standard
+### Mode du rendu
 
-on classifie les règles CSS par type de règle pour pouvoir les rechercher très rapidement ensuite
+Bon, maintenant, il faut savoir que les navigateurs se fichent bien des standards. Tout 
+ce qui compte, c'est savoir dans quel mode on est: mode XML, mode quirks, ou mode standard.
+Comme vous le savez sans doute, c'est défini par le doctype et/ou le content-type de la réponse.
 
-on fait un arbre de rendu
-on calcule le layout (où sont les éléments, quelles sont leurs tailles)
-on fait le painting : historiquement, c'était le processeur qui faisait tout
-maintenant on délègue plus au processeur graphique, en utilisant des techniques de compositing
+### Application des règles CSS
 
-avec js, c'est surtout le dom qui est lent (même si moins aujourd'hui)
-attention aux reflows intempestifs déclenchés par des accès dom
-nouveaux moteurs: très bien (genre jit) mais il faut pas oublier le dom !
+On classifie les règles CSS par type de règle pour pouvoir les rechercher
+très rapidement ensuite (table de hachage). Un type, c'est: id, classe ou pseudo-classe, élément ou
+pseudo-élément, autres (genre sélecteur d'attribut). Et quand le sélecteur a plusieurs
+morceaux, on prend le morceau le plus à droite pour classer.
+
+Tout ce qui est dans "autres" ralentit pas mal le traitement. De même, plus le sélecteur a de
+morceaux, plus ça sera lent. Une bonne règle à se rappeler, en gros, c'est que si le sélecteur
+doit réussir ou échouer, il doit le faire vite (pour chaque élément
+de la page).
+
+Mais dans la vraie vie
+ça reste plus ou moins négligeable.
+
+### Le rendu
+Puis on fait un arbre de rendu, ce qu'on appelle l'arbre DOM, qui correspond
+à l'arbre des balises dans le document HTML.
+
+On calcule le layout (où sont les éléments, quelles sont leurs tailles). C'est un
+des trucs les plus longs, ça se fait dans le sens descendant d'abord,
+puis dans le sens montant. Et parfois il y a des allers-retours.
+
+Puis on fait le painting, le dessin. Historiquement, c'était le processeur qui faisait tout,
+mais à présent on délègue plus au processeur graphique quand c'est possible,
+en utilisant des techniques
+de compositing.
+
+### Le DOM
+Lorsqu'on utilise Javascript, ce sont surtout les accès au DOM qui sont lents
+(même si c'est moins vrai aujourd'hui). Notamment, il faut faire attention
+aux reflows intempestifs déclenchés par des accès DOM.
+
+Les nouveaux moteurs Javascript se sont beaucoup améliorés en vitesse,
+notamment en utilisant des techniques de type JIT, mais
+il ne faut pas oublier le DOM !
+
+### Des liens:
+* [Delphine Malassingne a fait un compte rendu assez complet](http://articles.nissone.com/2011/12/fonctionnement-navigateur-soiree-performance-web/)
+* [Anthony Ricaud a publié sa présentation sur son blog](http://hanblog.info/blog/post/2011/10/Paris-Web-2011)
+* [Il a aussi partagé un ensemble de liens](http://blogmarks.net/user/rik/marks/tag/navigateur-marche)
 
 
-tester vos services
+Tester vos services
+=======
 Raphaël Yharrassarry
+------
 
-formule de Nielsen qui détermine le nombre de problèmes trouvés en fonction du nb d'utilisateurs testés
-il trouve que 5 utilisateurs trouvent 85% de problèmes
+Nielsen a induit une formule qui détermine le nombre de problèmes trouvés en
+fonction du nombre d'utilisateurs testés. Notamment, cette formule exprime
+que 5 utilisateurs trouvent 85% de problèmes.
 
-mais en fait la formule de nielsen est spécifique à chaque site (étude de Jared Spool) donc 5 utilisateurs ne suffisent pas
+Mais en fait la formule de Nielsen est spécifique à chaque site
+(d'après une étude de Jared Spool) donc 5 utilisateurs ne suffisent pas
+dans la vraie vie.
 
-CUE = Coparative UTilisability Evaluation
-8 études de 1998 à aujourd'hui qui comparent diverses méthodes d'éval
+On va résumer ici 8 études de 1998 à aujourd'hui qui comparent diverses
+méthodes d'évaluation. On les appelle CUE, soit Comparative Utilisability Evaluation.
 
-est-ce possible de trouver tous les problèmes d'ergo sur un site ?
-non : plus on teste plus on en trouve mais c'est a priori impossible de trouver tous les problèmes
+Première question: est-ce possible de trouver tous les problèmes d'ergo sur un site ?
+A priori non : plus on teste, plus on en trouve, mais c'est a priori
+impossible de trouver tous les problèmes.
 
-types des bugs : mineur, sérieux, critique
-les pbs critiques ne sont pas tous trouvés
+En suite, il y a plusieurs types de bugs : mineur, sérieux, critique. Les
+problèmes critiques ne sont pas tous trouvés.
 
-CUE8 : un même site, une question
-accroche marketing ou réalité : louer en 60 secondes une voiture ? (budget.com)
-toujours mesurer : tps de réalisation des tâches, tx de succès, satisfaction
-exclure les temps des échecs du calcul des moyennes
+Dans l'étude CUE8, on a posé une même question, ou une même action à réaliser,
+pour un même site, à plusieurs utiisateurs. On a utilisé une accroche marketing
+proche de la réalité, par exemple vérifier la promesse de
+budget.com qu'on peut louer une voiture en 60 secondes.
 
-4 taches définies, 5e tache libre
-déterminer le parcours suivant le résultat attendu
-grille d'évaluation
+Il faut toujours mesurer plein de choses, notamment : le temps de
+réalisation des tâches, les taux de succès, la satisfaction. Il faut
+exclure les temps mesurés pour les échecs pour calculer les moyennes.
 
-ex gmail: tache envoyer un mail
+Une autre étude demandait d'exécuter 4 tâches définies, plus une cinquième
+tâche laissée libre, au choix de l'utilisateur. On détermine le parcours
+suivant le résultat attendu (Note de Julien: je ne sais plus trop
+ce que signifiait cette dernière phrase).
 
-la grille d'évaluation peret de synthétiser, confronter entre pls inspecteurs, entre pls versions
+Autre point important, il faut avoir une grille d'évaluation.
+La grille d'évaluation permet de synthétiser, confronter entre plusieurs
+inspecteurs, entre plusieurs versions.
+
+### Pour en savoir plus
+On peut aller lire [l'article "Tests Utilisateurs" sur le blog "Ergonomie" de Raphaël Yharrassarry](http://blocnotes.iergo.fr/articles/tests-utilisateurs-mythes-et-realites/).
 
 
 Immdiate inspiration
-Denis Jacobs
+======
+Denise Jacobs
+-----
 
 Inspiration vient de la respiration
 
