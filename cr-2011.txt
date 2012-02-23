@@ -528,113 +528,146 @@ partager
 
 
 
-Peter-Paul Koch
 The mobile browser world
+=====
+Peter-Paul Koch
+-----
 
-20 browsers
-beaucoup de plate formes
-beaucoup de bugs
-à nouveau excitant, pas comme sur le desktop
+Il y a aujourd'hui 20 browsers mobiles, beaucoup de plates-formes, beaucoup de bugs.
+Bref, c'est à nouveau excitant, pas comme sur le desktop.
 
-la stack: browser, os, device (de samsung galaxy aux téléphones chinois pas chers)
-tout le monde veut posséder toute la stack
-aujourd'hui, ceux qui ont toute la stack: Apple, BlackBerry
+### La pile d'exécution
+La pile, c'est:
 
-Google et MS ont une partie de la stack: browser et OS
+- le browser
+- le système d'exploication
+- le device (du Samsung Galaxy aux téléphones chinois pas chers)
 
-Nokia ajuste le device
-avec OS: S40 ou SYmbian et browser SYmbian
-ou OS Windows 7
-un nouvel OS: Meltemi, basé sur Linux, mais on n'en sait pas grand chose
+### Quelques acteurs
+Tout le monde veut posséder toute la pile. Mais aujourd'hui, ceux qui
+l'ont en entier sont uniquement Apple et BlackBerry.
 
-1er pb de android:
-ils se ressemblent tous donc quel est leur différenciateur ?
-android est gratuit mais google dit : "si vous voulez utiliser android, utilisez le comme ça"
-les constructeurs aiment pas trop ça
+Google et Microsoft ont une partie seulement: le browser et l'OS.
 
-2e pb de android: google a acheté motorola
-grosse erreur de google
-tous les autres construteurs cherchent un autre OS... donc un nouveau navigateur
+Nokia a le device avec:
 
-possibilités ?
-webOS: le seul autre OS qui est prêt aujourd'hui
-HP veut le vendre au plus offrant
+- un OS: S40 ou bien Symbian avec son browser
+- ou l'OS Windows 7
+- ou un nouvel OS: Meltemi, basé sur Linux, mais on n'en sait pas grand chose
 
-autre option: Meego
-c'était censé être le nouveau système de nokia, ils ont meme sorti un device dessus puis ils l'ont arrêté
-ils ont annoncé tizen à la place mais on n'en sait rien
+### L'OS Android et ses problèmes
 
-autre option: Samsung Bada
-le but: un jour on virera Android et on utilisera Bada à la place
-Tout le monde pense que samsung allait utiliser bada, et finalement ils l'ont open sourcé, on comprend pas vraiment pourquoi.
+#### Le premier problème de Android
+Tous les devices qui utilisent Android se ressemblent, quel est donc leur différenciateur ?
+
+Par ailleurs, Android est gratuit mais google dit : "si vous voulez utiliser
+Android, utilisez le comme ça". Les constructeurs aiment pas trop ça.
+
+#### Le deuxième problème de Android
+Google a fait une grosse erreur en rachetant Motorola.
+Tous les autres construteurs cherchent donc un autre OS... 
+ce qui signifie pour nous un nouveau navigateur Web !
+
+### Les autres possibilités d'OS
+webOS est le seul autre OS qui est prêt aujourd'hui. HP veut le vendre au plus offrant.
+
+Une autre option est Meego. C'était censé être le nouveau système de Nokia,
+ils ont meme sorti un device dessus puis ils l'ont arrêté. Ils ont annoncé
+tizen à la place mais on n'en sait pas grand chose.
+
+Encore une autre option: Samsung Bada. Le but de Samsung, en gros, c'est
+qu'un jour ils vireront Android et utiliseront Bada à la place.
+Tout le monde pensait que Samsung allait utiliser Bada, et finalement,
+ils l'ont open sourcé, et on comprend pas vraiment pourquoi.
 
 Ok, tout ça est confus, c'est normal, c'est l'état du monde mobile d'aujourd'hui.
 
-Et la dernière option : Boot to Gecko.
-C'est une surcouche à Android, et c'est plutôt intelligent de la part de Mozilla.
+Et enfin, une dernière option est Boot to Gecko. C'est une surcouche à
+Android (note de Julien: ils n'en utilisent à présent que le noyau),
+et c'est plutôt intelligent de la part de Mozilla.
 
-le marché est bien compliqué... et c'est compliqué pour les développeurs car chaque système a son navigateur. Et il faut coder pour eux.
+Bref, le marché est bien compliqué... et c'est compliqué pour les
+développeurs car chaque système a son navigateur.
+Et il faut bien coder pour eux.
 
+### Le rôle des opérateurs
+Parlons à présent de la partie réseau, avec les opérateurs.
 
-On oublie partie connexion réseau, avec les opérateurs.
+Les opérateurs comprennent rien. Ils ont beaucoup d'argent mais ils
+savent pas quoi en faire, ils comprennent rien sur le sujet.
 
-les opérateurs comprennent rien. Ils ont beaucoup d'argent mais ils savent pas quoi en faire, ils comprennent rien sur le sujet.
+#### Sur le device
+Dans la plupart des pays occidentaux (sauf la Belgique ou l'Italie par exemple),
+les devices sont subventionnés par les opérateurs.
 
-Le device : dans la plupart des pays occidentaux (sauf Belgique ou Italie par ex), ils sont subventionnés
-c'est un problème pour WIndows Phone 7 par exmple.. parce que Skype est sur WP7 et les opérateurs aiment pas vraiment Skype. Donc WP7 stagne en parts de marché.
+C'est un problème pour Windows Phone 7 par exemple... parce que Skype
+est sur Windows Phone 7 et les opérateurs n'aiment pas vraiment Skype.
+Donc Windows Phone 7 stagne en parts de marché.
 
-Idem pour Nokia; Nokia dit qu'ils allaient arrêter Symbian, donc les opérateurs arrêtent Nokia.
+C'est un peu la même chose pour Nokia: Nokia a dit qu'ils allaient
+arrêter Symbian, donc les opérateurs arrêtent Nokia.
 
-Les opérateurs sont très puissants et les constructeurs dovent être dans les petits papiers des opérateurs pour être dans les agences.
+Les opérateurs sont très puissants et les constructeurs dovent être
+dans les petits papiers des opérateurs pour être dans les agences.
 
-Il y a le navigateur Opera.
+#### Opera et les opérateurs
+On n'a pas encore parlé du navigateur Opera.
+
+En gros, Opera fait un navigateur pour les devices qui ont un mauvais navigateur, genre symbian.
+
 Ils sont assez intelligents, car ils traitent directement avec les opérateurs.
-Opera fait un navigateur pour les devices qui ont un mauvais navigateur, genre symbian.
 
-Le danger: apple et google en tant qu'opérateurs
-Nokia a essayé et les opérateurs se son ligués contre lui et ils ont fait marche arrière.
-Ça ferait sans doute pareil avec Aple.
+#### Un danger: Apple et Google en tant qu'opérateurs
+
+Nokia a essayé. Les opérateurs se sont ligués contre lui et ils ont fait marche arrière.
+Ça ferait sans doute pareil avec Apple.
 
 
-Les navigateurs mobile
-il y en a plein plein
+### Les navigateurs mobiles
+Parlons à présent des différents navigateurs mobiles.
+En résumé, il y en a plein plein. Plein.
 
-Il y en a plein basé sur Webkit
-mais en fait il n'y a pas qu'un seul Webkit
-Webkit est juste un moteur de rendu
-mais ça suffit pas pour faire un navigateur
+#### Le moteur WebKit
+D'abord, il y en a plein basés sur WebKit. Mais en fait il n'y a pas qu'un seul WebKit.
+WebKit est juste un moteur de rendu mais ça suffit pas pour faire un navigateur.
 
-par ex tous les webkits n'ont pas d'accélération graphique hardware.
-tout simplement certains devices n'ont juste pas de GPU correct.
+Par exemple, tous les navigateurs basés sur WebKit
+n'ont pas forcément d'accélération graphique hardware. Tout simplement
+certains devices n'ont pas de GPU assez correct.
 
 de même tous le input doivent être écrit éparément pour chaque navigateur
 et en plus, tout le monde n'utilise pas la même version de webkit
 
+#### Les navigateurs de type "proxy"
+Ces navigateurs font le rendu sur le serveur. Mais il y a des
+désavantages; par exemple, le support Javascript est forcément limité.
 
-les navigateurs de type "proxy"
-ça fait le rendu sur le serveur
-mais il y a des désavantages du genre support javascript
+### Quelques statistiques
 
-statistiques: 
-Opera SYmbian et vieux devices: 22%
-Safari iOS: 20%
-Android: 17%
-Nokia Symbian S40: 17%
-BlackBerry
-NEtFront
-other
+#### Au niveau mondial
 
-il faut regarder les stats du pays et du client
+- Opera SYmbian et vieux devices: 22%
+- Safari iOS: 20%
+- Android: 17%
+- Nokia Symbian S40: 17%
+- BlackBerry
+- NetFront
+- autres
 
-les médias sociaux créent des visites d'iPhone and Android
+Mais ce n'est qu'une vue très partielle. En vérité, il faut regarder
+les stats du pays et même du client dont on doit faire le site.
 
-et les stats en France ?
-Safari sur iOS phone : 58%
-Android: 28%
-Nokia: 4%
-Opera et Dolfin: 3%
-Blackberry: 2%
-Other: 2%
+Remarquons aussi que les médias sociaux créent mécaniquement des visites
+d'iPhone and Android.
+
+#### Les stats en France
+
+- Safari sur iOS phone : 58%
+- Android: 28%
+- Nokia: 4%
+- Opera et Dolfin: 3%
+- Blackberry: 2%
+- Other: 2%
 
 
 
@@ -653,45 +686,59 @@ les données: texte, multimédia,
 
 
 Données ouvertes
+=====
 David Larlet
+----
+### Qu'est-ce que l'open data ?
+L'open data recouvre deux sens en français et en anglais:
+en français, c'est une donnée publique; en anglais, la donnée peut être professionnelle.
+L'idée est de libérer les données pour les citoyens.
 
-l'open data, c'est :
-en français: donnée publique
-en anglais: donnée peut être professionnelle
+Certaines villes ont eu l'idée de libérer des données de transport, d'environnement..
+Puis les régions s'y sont intéressées. Puis au niveau national,
+notamment aux États-Unis et au Royaume-Uni, mais aussi peut-être
+bientôt en France d'ici la fin de l'année (2011).
 
-l'idée = libérer les données pour les citoyens
+La ville de Rennes a été motrice en France, puis Paris, Montpellier, 
+et récemment la région Aquitaine et la ville de Bordeaux.
 
-certaines villes ont eu l'idée de libérer des données de transport, d'environnement..
-les régions s'y sont intéressées
-puis au niveau national, notamment aux US et en UK, mais aussi peut-être bientôt en France d'ici la fin de l'année.
+### Problématique des formats de données
 
-La ville de Rennes a été motrice en France, puis Paris Montpellier, et récemment la région Aquitaine et la ville Bordeaux.
+Souvent les données sont dans le format PDF, ce qui est peu
+pratique pour pouvoir les réutiliser.
 
-problématique des formats de données
-souvent ils sont fait en PDF: bof pour la réutilisation
-d'autres sont fait en XLS: bof ausi. ok pour naviguer dans UN fichier, mais pour lier plusieurs données...
+D'autres sont dans le format XLS de Microsoft Excel, ce qui est légèrement
+mieux, mais toujours limité: on peut certes naviguer dans UN fichier,
+mais pour ce qui est de lier plusieurs données, ça reste difficile.
 
-OpenData = chacun dans son coin
-LinkedData = acentré + liens
-Web Sémantique = acentré + liens + du sens entre les liens
+### Aller plus loin que l'open data
+En résumé, l'Open Data, c'est chacun qui libère des données dans son coin.
 
-accder aux données mais en plus jouer avec
+Pour aller plus loin, on peut parler de Linked Data: on a alors un système
+acentré, avec des liens entre chaque donnée.
+
+Pour aller encore plus loin, on utilise les techniques apportées par
+le Web Sémantique: non seulement le système est acentré et à base de 
+liens, mais en plus on apporte du sens avec ces liens.
+
+### accéder aux données mais en plus jouer avec
 opendata71.fr
 
-les données ont des licences
-ex de clause: une donnée collectée publiquement peut-elle être revendue ?
+Les données ont des licences. Par exemple, une licence peut avoir une clause
+qui permet ou interdit la revente d'une donnée collectée publiquement.
 
-aller demander au citoyen quelles données il veut
-"government as a service"
+On va aller demander au citoyen quelles données il veut. On s'achemine vers
+un "government as a service" (un gouvernement en tant que service).
 
-ville de montreal permet de jouer avec le budget de la ville
-et même de soumettre notre proposition
+Un autre exemple parlant: la ville de Montreal permet de jouer avec le
+budget de la ville, et même de soumettre une proposition de budget.
 
 
 
-SEO, Web mobile, accessibilité
-Trinité du développement Web inclusif
+SEO, Web mobile, accessibilité: la trinité du développement Web inclusif
+====
 Denis Boudreau
+----
 
 accssibilité: un concept difficile à atteindre ?
 
@@ -706,17 +753,18 @@ garder une structure sémantique
 
 
 Gestion d'équipe web
+=====
 Rudy Rigot
+-----
 
-déception d'expertise
-au début: plein d'experts contents
-à la fin: ah ben finalement c'est pas comme on voulait
+Rudy est parti du constat que l'on rencontre couramment
+en entreprise, ce qu'il a appelé la déception d'expertise.
+
+En bref, au début, on a plein d'experts contents. Et à la fin,
+ah ben finalement, c'est pas vraiment comme on voulait.
 
 ça arrive surtout en période d'imprévu
 
 c'est le rôle du chef de projet de gérer l'imprévu, garder les experts dans le projet, les responsabiliser
 
 le but: valoriser le travail de chaque expert
-
-
-
