@@ -592,7 +592,7 @@ Tous les autres construteurs cherchent donc un autre OS...
 ce qui signifie pour nous un nouveau navigateur Web !
 
 ### Les autres possibilités d'OS
-webOS est le seul autre OS qui est prêt aujourd'hui. HP veut le vendre au plus offrant.
+WebOS est le seul autre OS qui est prêt aujourd'hui. HP veut le vendre au plus offrant.
 
 Une autre option est Meego. C'était censé être le nouveau système de Nokia,
 ils ont meme sorti un device dessus puis ils l'ont arrêté. Ils ont annoncé
@@ -669,7 +669,7 @@ désavantages; par exemple, le support Javascript est forcément limité.
 
 #### Au niveau mondial
 
-- Opera SYmbian et vieux devices: 22%
+- Opera Symbian et vieux devices: 22%
 - Safari iOS: 20%
 - Android: 17%
 - Nokia Symbian S40: 17%
