@@ -1,0 +1,187 @@
+Responsive Design: clever tips and tricks
+===========
+Important: travail sur la typo et les proportions.
+
+Ex: proportion entre les espacements et la hauteur d'une ligne, ou entre
+la hauteur d'une ligne et sa longueur.
+
+Utiliser le texte "agh!iIl1" pour tester une typo, en très gros
+
+Pour jouer avec les règlages, on peut insérer des astérisques tous les
+n caractères. Plus facile pour régler.
+
+Audiodescription
+=====
+Décrire ce qu'on voit pour les personnes qui ne les voient pas.
+
+Également pour les personnes qui ne comprennent pas ce qu'ils voient,
+avec l'audiodescription ça les aide à comprendre.
+
+Les grands principes
+----
+Il faut aussi rendre les émotions. C'est un travail de création,
+c'est un vrai métier, il faut que ce soit bien encadré.
+
+La méthode
+-----
+* Bien regarder la vidéo une ou deux fois
+* Préparer un texte qui rende compte ce qui se passe, c'est difficile
+de bien trouver un équilibre entre le trop et le pas assez
+* il faut avoir 2 voix différentes, pour bien faire la différence
+avec la vidéo
+* il faut avoir un logiciel pour mixer les deux bandes son,
+mais il en existe de très bien qui sont gratuits
+
+Il faut que la personne qui ne voit pas soit capable d'imaginer
+comme la personne qui voit: il ne faut pas trop audiodécrire...
+
+Un exemple dans la vraie vie:
+* une voix pour la narration, une autre voix pour décrire ce qui s'affiche
+* du bon matériel pour la prise de son
+
+Pour faire faire du montage vidéo, on peut utiliser KDEnlive sous Linux.
+N'importe quel logiciel de base fait l'affaire, car c'est assez simple ce
+dont on a besoin, on a juste besoin de rajouter un canal son.
+
+Une charte
+----
+Respecter l'oeuvre, objectivité, respecter l'auditeur. Il faut pas
+parler pendant qu'il y a du son important dans le film.
+
+Dans le web, il n'y a rien aujourd'hui pour gérer ça, le plus simple
+est de faire deux vidéos.
+
+Les tests
+======
+On remet en question le fait que 8 ou 10 utilisateurs, c'est ok.
+
+Tests à distance: les gens n'ont pas à se déplacer.
+
+Mais moins qualitatif car pas de modérateur même si on peut contourner ça.
+
+Tests synchrones, on déplace juste le test.
+
+Tests asynchrones: les gens le font quand ils veulent.
+On récupère pas forcément les mêmes informations.
+
+Attention aux fausses informations remontées par les utilisateurs
+(genre j'ai réussi le test mais en fait non)
+
+Des outils:
+* un navigateur instrumenté, mais il faut que l'utilisateur
+l'installe et puis il peut se comporter différemment de son navigateur
+habituel.
+* ajouter un script, mais il faut être propriétaire du site
+* utiliser un proxy pour pouvoir modifier le code à la volée
+* analyse de la tâche (ex: WebRemUsine); on explicite une tâche car
+on sait les actions "optimisées" pour réaliser une tâche, et on peut
+ainsi comparer avec le comportement effectif de l'individu
+* evalyzer: pas de script et pas de logiciel à installer, mais
+fonctionne avec un plugin, technologie transparente
+
+Les tests à distance ont pas mal d'avantages, notamment on a 
+plus de chances de trouver les difficultés que rencontrent
+les utilisateurs tout simplement parce qu'on en a plus. On peut
+sélectionner les utilisateurs qui rencontrent seulement certains
+pbs, etc.
+
+Différence avec les Web Analytics: on connait pas le contexte
+des visites. On sait pas ce que viennent faire les visiteurs.
+
+Aaron Walter
+====
+
+Le design c'est avant tout raconter des histoires.
+
+Mais il faut être honnête.
+
+Ex: BP voulait avoir une image "verte" et se retrouve avec la pire
+catastrophe écologique du monde.
+
+Donc il faut être honnête en racontant nos histoires.
+
+Des petites décisions sur le design qui rendent le produit plus humain
+par petites touches, c'est très important, et il faut le faire
+à pas mal d'endroits, au final ça s'ajoute.
+
+Comparons les designs de dropbox et box.net; dropbox est clairement
+plus humain, alors que box.net se focalise sur les fonctionnalités.
+C'est pas mal mais bon, c'est du déjà vu, quoi.
+
+La personnalité est importante. C'est déjà important pour raconter des
+histoires autour d'un feu, alors c'est important aussi pour le design.
+
+Il y a une grande relation entre les émotions et la mémoire.
+
+La personnalité aide à trouver les personnes qui sont comme vous.
+
+Voir Seth Godin.
+
+Fast Mobile UIs
+======
+On peut avoir des problèmes si on choisit du HTML5 pour faire une app ou
+un jeu.
+
+.srollTo(0,0) pour enlever la barre d'adresses.
+
+Attention aux problèmes de vitesse, à plusieurs niveaux: téléchargement,
+parsing, etc.
+
+TCP/IP et HTTP sont plutôt lents également sur mobile.
+
+Pipelining et keep alive, c'est cool.
+
+applicationCache n'est pas la solution magique qu'on peut penser.
+
+140byt.es : un site pour diminuer la taille d'un bout de JS pour que
+ça tienne dans un tweet
+
+On peut utiliser les méthodes natives du DOM plutôt que jQuery.
+
+Utiliser l'event bubbling.
+
+"req.responseCode < 400" pour tester le résultat, car parfois le
+code de réponse est égal à 0 si le navigateur récupère la ressource
+depuis l'un de ses caches.
+
+pipelining + CORS sur Android = quelques problèmes
+
+Les redraws peuvent faire freezer une appli mobile si c'est mal codé.
+
+CSS est bien supporté sur les différents mobiles.
+
+Utiliser des transformations particulières permet d'accélérer
+graphiquement mais il faut pas trop le faire pour pas avoir de problèmes.
+
+Pour android il faut pas faire d'animations trop compliquées car
+parfois il y a qu'une partie de l'animation qui fonctionne.
+
+Il y a de la détection de format qui fait un peu chier, par exemple
+quand il y a des numéros il le transforme en lien qui permet d'appeler.
+On peut le désactiver avec un paramètre mais dans phonegap ça réapparait,
+cool.
+
+hammer.js pour gérer des gestures. Et puis ça résoud le problème
+de `touchend`.
+
+Responsivité perçue.
+
+initial-scale = 0.5 pour le problème Retina.
+
+singleapppagebook.Com donne des guidelines sur comment faire une appli.
+
+
+Tendances dans le web design, les suivre ou les fuir ?
+======
+flat design
+
+Une tendance est quelque chose de global plutôt qu'une mode au sein
+d'une tribu.
+
+La création est souvent impactée par la veille.
+
+Les clients sont aussi impactés par la tendance; les designers
+doivent prendre en compte le besoin.
+
+Utiliser les tendances à bon escient tout en respectant les clients.
+
