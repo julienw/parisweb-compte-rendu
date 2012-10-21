@@ -185,3 +185,174 @@ doivent prendre en compte le besoin.
 
 Utiliser les tendances à bon escient tout en respectant les clients.
 
+
+Grilles et Macrotypographie
+=====
+Ya plein de trucs qui arrivent en pur CSS, mais bon, aujourd'hui, maintenant,
+comment on fait ?
+
+Cet atelier, c'est un retour d'expérience sur un truc qui fonctionne,
+par opposition à tous les frameworks qui arrivent un peu partout
+mais qui sont pas forcément ni compatible avec les vieux navigateurs,
+ni accessible, etc.
+
+La grille, ça vient du print. Le print influence le web mais techniquement,
+on peut pas tout faire sur le web, et la grille, en soi, c'est pas
+forcément facile.
+
+Sur le Web on n'a pas de dimensions fixes contrairement au print.
+
+Les grilles et les alignements dans l'art, c'est un truc ancestral.
+
+Aujourd'hui, on tient les sites web au creux de notre main.
+
+Grille = harmonie, cohérence, hiérarchie de l'information, rythmer la lecture,
+permettre à l'utilisateur de se repérer.
+
+Définir sa grille: définir des rapports entre les différentes valeurs:
+largeurs, nombre de colonnes, hauteurs de lige, corps de texte.
+
+Pour la grille verticale, on travaille en unités absolues, alors que
+pour la grille horizontale on travaille en unités relatives. L'unité
+pourcentage est pas facile à utiliser, surtout par rapport aux divers
+échanges avec les acteurs.
+
+Les grilles pour le responsive ? Sur des écrans larges, on maitrise
+bien car on a du recul. C'est pas grave si la page est aérée car, bon,
+on a de la place. Sur des mobiles en revanche, il n'y a pas d'espace à
+perdre, donc il faut vraiment simplifier la grille voire supprimer
+le colonnage, donc travailler uniquement en grille horizontale.
+
+Attention aux grandes tailles, il faut que les lignes de texte restent
+à environ 70/80 caractères.
+
+Avoir des interlignages de 20px, c'est pratique dans Toshop car on
+peut déplacer facilement les éléments de 10 en 10.
+
+Pour la grille verticale, on annule les goutières de gauche et de droite
+(`margin-left: 0` sur le premier enfant, `margin-right: 0` sur le dernier).
+C'est particulièrement important dès qu'on imbrique, car sinon c'est
+bien moche.
+
+Truc d'expérience: font-size: 100.01% sur le html, ça corrige des 
+bugs d'IE, Opera et Safari, dans des anciennes version.
+
+On essaie de toujours retomber sur notre unité de 20px en calculant
+les em.
+
+On met un `margin-top` sur les paragraphes, ça semble naturel
+d'en avoir un aussi à la fin.
+
+Les `em` c'est nul parce qu'il faut faire des calculs par rapport
+au contexte.
+
+Normalize.css est un reset plus intelligent: au lieu de tout virer
+pour tout remettre, on uniformise vers le plus courant.
+
+
+Organisation de l'information
+=====
+Pour gérer son temps, il faut d'abord déterminer ce qu'il faut faire.
+
+Mettre les idées au même endroit que la tâche.
+
+Une information c'est à la fois absolu mais aussi relatif à soi. On
+s'en fait une certaine représentation.
+
+La structure de l'information qu'on manipule, c'est un graphe. On le 
+manipule de plusieurs manières :
+* de manière séquentielle: discours, temps. 
+* de manière hiérarchique: priorité
+* catégoriser
+* on choisit aussi une granularité; derrière un point s'en trouve
+d'autres, on va choisir de le développer ou non.
+
+Il faut à la fois être en mode créatif (sans barrière, comme un
+brainstorming) et en mode structuré, à différents moments.
+
+Méthode Get Things Done.
+
+Recherche: ça ne suffit pas, car il n'y a pas de contexte associé,
+trop d'ambiguïté.
+
+Un site efficace ?
+====
+Depuis 1970 on est passé d'une informatique du back avec des geeks
+qui savent l'utiliser à une informatique des usages (en passant
+par une informatique du front).
+
+Émergence d'un nouveau métier: Human Behavior Expert.
+
+Le marché de l'UX n'en est qu'à ses débuts. C'est les dev HTML d'il
+y a 10 ans.
+
+Le plus important, c'est le comportement généré par une page.
+
+Plusieurs étapes comportementales : 
+* attention
+* intérêt
+* désir
+* confiance
+Avant de générer une action.
+
+C'est le cerveau émotionnel qui contrôle tout.
+
+Le cerveau a des comportements différents en fonction des tâches à
+réaliser. Ces comportements sont instinctifs et non pas conscients: 95%
+d'activité non consciente pour 5% d'activité consiente.
+
+65% des informations pour prendre une décision viennent de l'émotionnel.
+
+Comment faire pour faire des écrans efficaces ?
+------
+Avoir un objectif bien clair.
+
+La difficulté c'est quand on a plusieurs objectifs, alors il faut
+les prioriser. Autrement il ne faut pas avancer.
+
+Ne pas confondre scénario et parcours client.
+
+Un parcours, c'est juste un enchainement d'étapes.
+
+Pour un scénario, il faut: motivation, cible, verbe, un objet.
+
+En conception classique, on met vraiment l'accent sur le design
+et la technique, et c'est là qu'on dépense plein d'argent. Mais en
+fait les gens voient surtout les écrans, l'UX.
+
+On a aussi des fantasmes: "si le concurrent a ça, ça marche et je le veux aussi."
+
+On choisit aussi des trucs du genre "j'aime ça, j'aime pas ça", ce n'est
+pas une bonne méthode.
+
+Il faut plutôt voir le comportement que va générer un écran. Utiliser
+les habitudes. Se focaliser sur les résultats. Faire des hypothèses.
+
+D'abord on fixe des zones dans l'écran. Pas plus de 4 ou 5 grandes zones.
+La zone d'en haut est une zone où l'utilisateur ne va pas tout de suite,
+il y va que quand il trouve pas ce qu'il veut. Par contre ya deux "sweet
+spots", qui ressemblent un peu à deux yeux dans la page", où le visiteur
+regarde en premier dans la page.
+
+On détermine ensuite les comportements qu'on veut générer (par exemple:
+retrieve, discover, interact).
+
+Puis on définit l'ordre des zones, le parcours visuel qu'on veut
+générer par l'utilisateur. La première zone est dans le sweet spot.
+
+On définit des zones à 10px près car l'oeil voit flou en dehors
+de l'endroit qu'on fixe.
+
+Des outils de mesure
+-----
+La fin du "I like/I don't like".
+
+Outils :
+* eyetracking, mais il y a aussi de l'eyetracking plus avancé qui
+est capable de voir quel type de fixation est faite (cognitif ou non)
+* questionnaires
+* IRM
+
+Le but, ce n'est pas de manipuler le visiteur. Le but, c'est de
+l'aider à réaliser ses tâches.
+
